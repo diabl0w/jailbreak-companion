@@ -4,7 +4,7 @@ ASSETS_DIR  := app/src/bootstrap/assets
 
 .PHONY: all system bootstrap install clean
 
-all: install
+all: bootstrap
 
 system:
 	./gradlew :app:assembleSystemRelease
